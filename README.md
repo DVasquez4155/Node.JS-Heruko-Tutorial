@@ -7,7 +7,8 @@ Publishing this app the heroku is a tough assignment. Heroku will ask for your c
 * [Setup your system variables](#Setup%20your%20system%20variables)
 * [Setup your heroku app](#Setup%20your%heroku%app)
 * [Helpful Tool](#Helpful%20Tool)
-* [Last Setup](#last%20setup)
+* [Last Setup](#last%20setup) 
+#
 * [Credits](#Credits)
 * [Contributing](#Contributing)
 * [License](#License)
@@ -34,7 +35,7 @@ Type this in your git bash in order for Node.JS to read your variables
     export db_host='localhost' #Optional
     export db_port='3306' #Optional
     export db_user='root' #Optional
-    export db_pass='root' #Optional
+    export db_pass='root' 
 
 Now when you start your server, everything should work fine. Make sure to save you changes by commiting `git add -A` ,`git commit -m 'Updated database settings'`and finally pushing to github `git push`
 ## Setup your heruko app
